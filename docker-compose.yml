@@ -1,0 +1,45 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-caspian}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-caspian}
+      POSTGRES_DB: ${POSTGRES_DB:-caspian_breeze}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-caspian} -d ${POSTGRES_DB:-caspian_breeze}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      # внутри docker БД доступна по имени сервиса db, а не localhost
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-caspian}:${POSTGRES_PASSWORD:-caspian}@db:5432/${POSTGRES_DB:-caspian_breeze}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    environment:
+      VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
