@@ -1,0 +1,761 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Асфальтовая площадка раскаляется, деревьев нет",
+    "status": "in_review",
+    "days_ago": 16,
+    "hours_ago": 21,
+    "district_hint": "5 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.151721,
+     43.652261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "На прогулочной дорожке нигде нельзя попить",
+    "status": "in_review",
+    "days_ago": 7,
+    "hours_ago": 1,
+    "district_hint": "28 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.207281,
+     43.675266
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "rejected",
+    "days_ago": 29,
+    "hours_ago": 12,
+    "district_hint": "7 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.141836,
+     43.659203
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "done",
+    "days_ago": 20,
+    "hours_ago": 23,
+    "district_hint": "9 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.149521,
+     43.667278
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Асфальтовая площадка раскаляется, деревьев нет",
+    "status": "rejected",
+    "days_ago": 28,
+    "hours_ago": 19,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.175075,
+     43.669331
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "У школы нет тени, дети ждут родителей на солнце",
+    "status": "rejected",
+    "days_ago": 27,
+    "hours_ago": 14,
+    "district_hint": "11 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.175579,
+     43.667894
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "broken_ac",
+    "comment": "Кондиционер в павильоне остановки не включается",
+    "status": "done",
+    "days_ago": 22,
+    "hours_ago": 17,
+    "district_hint": "28 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.204047,
+     43.674487
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "rejected",
+    "days_ago": 28,
+    "hours_ago": 4,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.172029,
+     43.673049
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Детская площадка, рядом нет питьевой воды",
+    "status": "new",
+    "days_ago": 9,
+    "hours_ago": 18,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.200678,
+     43.666356
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Асфальтовая площадка раскаляется, деревьев нет",
+    "status": "in_review",
+    "days_ago": 1,
+    "hours_ago": 5,
+    "district_hint": "9 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.155332,
+     43.661974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Возле спортплощадки нужен фонтанчик",
+    "status": "in_review",
+    "days_ago": 15,
+    "hours_ago": 14,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.172266,
+     43.673956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "other",
+    "comment": "Сухие деревья на аллее, нужен полив",
+    "status": "in_review",
+    "days_ago": 5,
+    "hours_ago": 14,
+    "district_hint": "8 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.162475,
+     43.652718
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Длинный участок без единого навеса, днём невозможно идти",
+    "status": "new",
+    "days_ago": 6,
+    "hours_ago": 14,
+    "district_hint": "29 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.204058,
+     43.653406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "done",
+    "days_ago": 26,
+    "hours_ago": 3,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.165295,
+     43.671847
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "На прогулочной дорожке нигде нельзя попить",
+    "status": "new",
+    "days_ago": 4,
+    "hours_ago": 1,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.198065,
+     43.66856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "other",
+    "comment": "Нет скамеек в тени у поликлиники",
+    "status": "new",
+    "days_ago": 17,
+    "hours_ago": 8,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.202003,
+     43.66767
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "У школы нет тени, дети ждут родителей на солнце",
+    "status": "new",
+    "days_ago": 4,
+    "hours_ago": 19,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.169398,
+     43.66888
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Длинный участок без единого навеса, днём невозможно идти",
+    "status": "new",
+    "days_ago": 0,
+    "hours_ago": 4,
+    "district_hint": "14 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.156858,
+     43.673306
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "У школы нет тени, дети ждут родителей на солнце",
+    "status": "rejected",
+    "days_ago": 21,
+    "hours_ago": 10,
+    "district_hint": "2 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.169203,
+     43.6427
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Длинный участок без единого навеса, днём невозможно идти",
+    "status": "done",
+    "days_ago": 13,
+    "hours_ago": 20,
+    "district_hint": "6 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.170027,
+     43.646992
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Длинный участок без единого навеса, днём невозможно идти",
+    "status": "in_review",
+    "days_ago": 20,
+    "hours_ago": 6,
+    "district_hint": "14 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.162214,
+     43.679986
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Возле спортплощадки нужен фонтанчик",
+    "status": "in_review",
+    "days_ago": 6,
+    "hours_ago": 16,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.164318,
+     43.667368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Асфальтовая площадка раскаляется, деревьев нет",
+    "status": "done",
+    "days_ago": 9,
+    "hours_ago": 6,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.16414,
+     43.669826
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "new",
+    "days_ago": 16,
+    "hours_ago": 16,
+    "district_hint": "9 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.151174,
+     43.668167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "broken_ac",
+    "comment": "Павильон закрыт, внутри жарче, чем снаружи",
+    "status": "new",
+    "days_ago": 7,
+    "hours_ago": 1,
+    "district_hint": "28 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.207051,
+     43.677253
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "broken_ac",
+    "comment": "Кондиционер в павильоне остановки не включается",
+    "status": "done",
+    "days_ago": 27,
+    "hours_ago": 22,
+    "district_hint": "14 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.153475,
+     43.675719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Возле спортплощадки нужен фонтанчик",
+    "status": "planned",
+    "days_ago": 17,
+    "hours_ago": 19,
+    "district_hint": "4 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.179812,
+     43.644331
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "new",
+    "days_ago": 8,
+    "hours_ago": 4,
+    "district_hint": "14 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.153733,
+     43.677136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "done",
+    "days_ago": 20,
+    "hours_ago": 4,
+    "district_hint": "28 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.195843,
+     43.679705
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "in_review",
+    "days_ago": 8,
+    "hours_ago": 3,
+    "district_hint": "29 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.203354,
+     43.665401
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "new",
+    "days_ago": 3,
+    "hours_ago": 8,
+    "district_hint": "12 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.166275,
+     43.665066
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "У школы нет тени, дети ждут родителей на солнце",
+    "status": "in_review",
+    "days_ago": 20,
+    "hours_ago": 21,
+    "district_hint": "9 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.165124,
+     43.66318
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "planned",
+    "days_ago": 21,
+    "hours_ago": 4,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.202892,
+     43.666191
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Детская площадка, рядом нет питьевой воды",
+    "status": "planned",
+    "days_ago": 28,
+    "hours_ago": 1,
+    "district_hint": "3 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.158287,
+     43.645189
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "done",
+    "days_ago": 18,
+    "hours_ago": 1,
+    "district_hint": "9 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.158152,
+     43.666095
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Возле спортплощадки нужен фонтанчик",
+    "status": "new",
+    "days_ago": 11,
+    "hours_ago": 14,
+    "district_hint": "2 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.159492,
+     43.645121
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Остановка без навеса, люди стоят на солнцепёке",
+    "status": "new",
+    "days_ago": 17,
+    "hours_ago": 1,
+    "district_hint": "8 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.163521,
+     43.656768
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "На прогулочной дорожке нигде нельзя попить",
+    "status": "in_review",
+    "days_ago": 2,
+    "hours_ago": 6,
+    "district_hint": "5 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.154866,
+     43.656604
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Детская площадка, рядом нет питьевой воды",
+    "status": "in_review",
+    "days_ago": 10,
+    "hours_ago": 2,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.197381,
+     43.664321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Детская площадка, рядом нет питьевой воды",
+    "status": "rejected",
+    "days_ago": 27,
+    "hours_ago": 5,
+    "district_hint": "29 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.20886,
+     43.658099
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "no_shade",
+    "comment": "Асфальтовая площадка раскаляется, деревьев нет",
+    "status": "planned",
+    "days_ago": 27,
+    "hours_ago": 7,
+    "district_hint": "27 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.192376,
+     43.669362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "need_fountain",
+    "comment": "Детская площадка, рядом нет питьевой воды",
+    "status": "planned",
+    "days_ago": 9,
+    "hours_ago": 7,
+    "district_hint": "29 мкр"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.207384,
+     43.655302
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Палитра: нежно-жёлтая «солнечная» база + бирюза Каспия как цвет прохлады */
+@theme {
+  --font-sans: "Onest", "Segoe UI", Roboto, Arial, sans-serif;
+  --color-cream: #FFFBEA;
+  --color-sand: #FFF3C7;
+  --color-butter: #FBE7A1;
+  --color-sun: #F2C94C;
+  --color-sun-deep: #D9A521;
+  --color-ink: #43360F;
+  --color-muted: #85764A;
+  --color-line: #EFDFA2;
+  --color-sea: #23868A;
+  --color-sea-soft: #DDF1EE;
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Подложка карты в тёплом тоне палитры */
+.leaflet-tile-pane { filter: sepia(.28) saturate(.75) brightness(1.04) contrast(.95); }
+.leaflet-container { font-family: var(--font-sans); background: var(--color-sand); }
+.leaflet-popup-content-wrapper { border-radius: 14px; }
+.leaflet-popup-content { margin: 12px 14px; font-size: 14px; line-height: 1.4; }
+
+.cb-emoji-icon {
+  display: grid; place-items: center;
+  font-size: 20px; line-height: 1;
+  filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #fff);
+}
+.cb-emoji-icon.is-near { font-size: 26px; }
+.cb-zoom-low .cb-emoji-icon:not(.is-near) { font-size: 14px; }
+.cb-you {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--color-sea); border: 3px solid #fff;
+  box-shadow: 0 0 0 6px rgb(35 134 138 / .25);
+}
+
+:focus-visible { outline: 3px solid var(--color-sea); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* На телефоне масштаб — жестами, кнопки зума только мешают нижней панели */
+@media (max-width: 767px) {
+  .leaflet-control-zoom { display: none; }
+}

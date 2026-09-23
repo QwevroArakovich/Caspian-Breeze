@@ -1,0 +1,3 @@
+# Только для разработчика: пересборка backend/seed/data/*.geojson (python -m seed.generate_data)
+shapely==2.1.2
+pytest==8.3.4
